@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Plus Jakarta Sans;
+  color: #363636;
+}
+
+.lightBlueBg {
+  padding: 15px;
+  border-radius: 20px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/cfb8/e85d/0ec01d131120d04ed61876a84c88c188?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aPwuqT5dMHwKcDlduhmHOMTUgBHESBJfah9nJBBaTDgRhrli7CUbWpMl~2GHTVa4ylL9uB2phdhmDBigo155jf-FeLLHqe19qJsVgWSdxSnmbCK24GNOwP~u9jxBTsrbgLEO1zcXysaVwCl7Det-e2umJlDqWl3seIZMvPwRJhCD4QqV5RXD9oaVVu9BSxRyMSkE~0MN0NcL29NdBza71QykIrqtG50ETcjgxqEsCsS0~1oZoUhQr6QWQVWIvbjIE4cgXB2y43-a-nKKQPYBoE96kVu3~OlvGWUeSx3v~WVcQFO8-mG~79CJmYFY3DXeW6wtkYyyblfemJ8hXDl-BA__");
+  width: fit-content;
+  img {
+    box-shadow: 0px 2px 13.8px 5px #0000001a;
+    border-radius: 20px;
+  }
+}
+
+.note {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #666666;
+}
+
+.mainInfo,
+.mainHeading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: text-start;
+}
+
+.subHeading {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 40.32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.text-start {
+  text-align: start !important;
+}
